@@ -1,0 +1,38 @@
+{
+  "name": "storybook-tailwind-atomic-design",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "click-outside-vue3": "^4.0.1",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.5.21",
+    "vue-the-mask": "^0.11.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-vitest": "^9.1.8",
+    "@storybook/vue3-vite": "^9.1.8",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.21",
+    "playwright": "^1.55.1",
+    "postcss": "^8.5.6",
+    "storybook": "^9.1.8",
+    "tailwindcss": "^3.4.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.7",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.0.7"
+  }
+}
