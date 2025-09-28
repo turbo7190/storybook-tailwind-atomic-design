@@ -2,16 +2,24 @@
 
 A comprehensive Vue.js component library built with Storybook, Tailwind CSS, and Atomic Design principles. This design system provides a scalable, maintainable, and reusable collection of UI components for modern web applications.
 
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.5.21-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Storybook](https://img.shields.io/badge/Storybook-9.1.8-FF4785?style=flat-square&logo=storybook)](https://storybook.js.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.1.7-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+
 ## 🌟 Features
 
-- **🎯 Atomic Design Methodology**: Components organized into Atoms, Molecules, Organisms, and Pages
+- **🎯 Atomic Design Methodology**: Components organized into Atoms, Molecules, Organisms, and Templates
 - **🎨 Tailwind CSS Integration**: Utility-first CSS framework with custom design tokens
 - **📚 Storybook Documentation**: Interactive component playground and documentation
 - **⚡ Vue 3 Composition API**: Modern Vue.js with TypeScript support
-- **🎭 HeadlessUI Components**: Accessible, unstyled UI components
-- **🔍 Heroicons Integration**: Beautiful, consistent iconography
+- **🎭 HeadlessUI Components**: Accessible, unstyled UI components (v1.7.23)
+- **🔍 Heroicons Integration**: Beautiful, consistent iconography (v2.2.0)
 - **📱 Responsive Design**: Mobile-first approach with breakpoint utilities
 - **♿ Accessibility First**: WCAG compliant components with proper ARIA attributes
+- **🧪 Comprehensive Testing**: Vitest unit tests and Playwright browser tests
+- **⚡ Fast Development**: Vite-powered build system for lightning-fast development
 
 ## 🏗️ Architecture
 
@@ -56,7 +64,7 @@ This design system follows the Atomic Design methodology, organizing components 
 - **Modals**: Dialog boxes and overlays
 - **Sidebars**: Navigation panels and filters
 
-### 📄 Pages (Complete Layouts)
+### 📄 Templates (Complete Layouts)
 
 - **Landing Pages**: Marketing and product pages
 - **Dashboard Pages**: Admin and user interfaces
@@ -70,16 +78,17 @@ This design system follows the Atomic Design methodology, organizing components 
 
 ### Prerequisites
 
-- Node.js 18+
-- npm, yarn, or pnpm
-- Modern web browser
+- **Node.js 18+** (recommended: Node.js 20+)
+- **Package Manager**: npm, yarn, or pnpm
+- **Modern Web Browser**: Chrome, Firefox, Safari, or Edge
+- **Git**: For version control and cloning
 
 ### Installation
 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/turbo7190/storybook-tailwind-atomic-design.git
    cd storybook-tailwind-atomic-design
    ```
 
@@ -98,6 +107,8 @@ This design system follows the Atomic Design methodology, organizing components 
    ```bash
    npm run dev
    ```
+
+   The application will be available at `http://localhost:5173`
 
 4. **Launch Storybook**
 
@@ -348,13 +359,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [HeadlessUI](https://headlessui.com/) - Unstyled, accessible UI components
 - [Heroicons](https://heroicons.com/) - Beautiful hand-crafted SVG icons
 
-## 📞 Support
+## 📞 Support & Contact
 
-- **Documentation**: Check Storybook at `http://localhost:6006`
-- **Issues**: Report bugs and request features on GitHub
-- **Discussions**: Join our community discussions
-- **Email**: Contact us at support@example.com
+- **📚 Documentation**: Interactive component documentation at `http://localhost:6006`
+- **🐛 Issues**: Report bugs and request features on [GitHub Issues](https://github.com/turbo7190/storybook-tailwind-atomic-design/issues)
+- **💬 Discussions**: Join our community discussions on [GitHub Discussions](https://github.com/turbo7190/storybook-tailwind-atomic-design/discussions)
+- **📧 Email**: Contact us at james-rose918@outlook.com
+- **📖 Wiki**: Check our [project wiki](https://github.com/turbo7190/storybook-tailwind-atomic-design/wiki) for detailed guides
+
+## 🎯 Roadmap
+
+- [ ] **Component Coverage**: Expand organism and template components
+- [ ] **Theme System**: Advanced theming with CSS custom properties
+- [ ] **Animation Library**: Framer Motion integration for smooth animations
+- [ ] **Mobile Components**: Native mobile-specific components
+- [ ] **Internationalization**: Multi-language support with Vue I18n
+- [ ] **Performance**: Bundle size optimization and lazy loading
+- [ ] **Accessibility**: Enhanced ARIA support and screen reader testing
 
 ---
 
 Built with ❤️ using Vue.js, Tailwind CSS, and Storybook
+
+**Last Updated**: December 2024 | **Version**: 0.0.0 | **Maintainer**: James Rose
