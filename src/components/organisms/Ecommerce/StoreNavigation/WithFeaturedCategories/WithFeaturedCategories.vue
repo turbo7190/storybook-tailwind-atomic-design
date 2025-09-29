@@ -352,7 +352,6 @@
                   element="span"
                   aria-hidden="true"
                 />
-                />
                 <Link
                   color="gray-700"
                   size="sm"

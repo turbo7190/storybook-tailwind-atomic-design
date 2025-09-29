@@ -381,4 +381,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Built with ❤️ using Vue.js, Tailwind CSS, and Storybook
 
-**Last Updated**: December 2024 | **Version**: 0.0.0 | **Maintainer**: James Rose
+**Last Updated**: September 2025 | **Version**: 0.0.0 | **Maintainer**: James Rose

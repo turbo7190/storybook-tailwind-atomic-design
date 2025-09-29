@@ -1,21 +1,6 @@
 <template>
   <nav class="flex" aria-label="Breadcrumb">
     <ol role="list" class="flex items-center space-x-4">
-      <li>
-        <div>
-          <a href="#">
-            <Icon
-              :name="iconName"
-              color="gray-400"
-              hoverTextColor="gray-500"
-              size="5"
-              class="flex-shrink-0"
-              :aria-hidden="true"
-            />
-            <span class="sr-only">{{ iconName }}</span>
-          </a>
-        </div>
-      </li>
       <li v-for="item in items" :key="item.name">
         <div class="flex items-center">
           <svg
